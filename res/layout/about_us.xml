@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D0FFFF" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:text="About Us"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="32dp"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/founders"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/founders" />
+    
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...it all started with a craft night. \n\nEighty-nine eleven specializes in creating unique handcrafted jewelry."
+        android:layout_below="@id/founders"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        />
+    
+</RelativeLayout>

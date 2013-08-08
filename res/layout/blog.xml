@@ -1,0 +1,263 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:orientation="vertical"
+   	android:background="#D0FFFF" >
+    
+   	<TextView
+       	android:id="@+id/title"
+        android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+       	android:background="#FFFFFF"
+        android:text="Our Blog"
+ 	    android:gravity="center_horizontal"
+       	android:textColor="#000000"
+       	android:textSize="32dp"
+       	android:typeface="serif" />
+   	
+   	<TextView
+   	    android:id="@+id/date_120811"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="THURSDAY, DECEMBER 8, 2011"
+   	    android:textColor="#000000"
+   	    android:typeface="serif"
+   	    android:textStyle="bold" 
+   	     />
+  
+   	<TextView
+   	    android:id="@+id/title_120811"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="Behind the Scenes: Fall/Winter 2011 Lookbook Photoshoot"
+   	    android:textColor="#000000"
+   	    android:textSize="20dp"
+   	     />
+   	<!--  
+   	<VideoView
+   	    android:id="@+id/video_120811"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    />
+   	 -->
+   	 
+   	<TextView
+   	    android:id="@+id/post_120811"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="Here is a video of behind the scenes of Eighty-Nine Eleven's first ever photoshoot. Thanks to a good friend, Vincent Arrogancia, for his amazing video and editing skills. And to the rest of our team, Ana Parga (hair and make up), and our models (Lani Siakisini, Jenn Kim, Christine Ng, and Kristine Villacarillo). Thanks for being such a great team! We hope all of you like the video and check out our the pictures of our Fall/Winter 2011 Lookbook. \n\nLove, \neighty-nine eleven \njune nichole and kristina carmina \n"
+		android:typeface="sans"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		/>
+   	
+   	<TextView
+   	    android:id="@+id/date_120411"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="SUNDAY, DECEMBER 4, 2011"
+   	    android:textColor="#000000"
+   	    android:typeface="serif"
+   	    android:textStyle="bold" 
+   	     />
+   	
+   	<TextView
+   	    android:id="@+id/title_120411"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="baby, it's cold outside..."
+   	    android:textColor="#000000"
+   	    android:textSize="20dp"
+   	     />
+   	
+   	<TextView
+   	    android:id="@+id/post_120411"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="The weather’s been changing and feeling a lot more like winter and it's been quite a while since our last blog entry, so we think it’s about time for an eighty-nine eleven update. \n\nWe've been pretty busy working on getting this business going, and so far it's going pretty well!  Just yesterday we had the opportunity to be a vendor at the 15th Annual Pilipino Christmasfest: Pasko Sa Aming Bayan at Cal State Long Beach.  It was our first time being vendors at such an event, it was a wonderful experience."
+		android:typeface="sans"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		/>
+   	
+   	<ImageView
+        android:id="@+id/founders"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:src="@drawable/founders" />
+   	
+   	<TextView
+   	    android:id="@+id/post2_120411"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="Today was another busy and exciting day, we had our very first official photo shoot as eight-nine eleven! So be on the lookout for those photos, they’ll be posted up very soon. \nAnd last, but not least, please come out and support us next Sunday, December 11 in Buena Park, California.  We will be hosting a trunk show-esc event featuring all our latest designs.  It’ll be a great opportunity to meet us, the designers, learn a little more about our company, and get some Christmas shopping done!  Our products make some great gifts and stocking stuffers ya know.. ;) \n\nHope to see you next week! Bundle up and stay warm all cause baby, it’s cold outside! \n\nLove, \neighty-nine eleven \njune nichole and kristina carmina \n"
+		android:typeface="sans"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		/>
+   	
+   	<TextView
+   	    android:id="@+id/date_082711"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="SATURDAY, AUGUST 27, 2011"
+   	    android:textColor="#000000"
+   	    android:typeface="serif"
+   	    android:textStyle="bold" 
+   	     />
+   	 
+   	<TextView
+   	    android:id="@+id/title_082711"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="a dream come true"
+   	    android:textColor="#000000"
+   	    android:textSize="20dp"
+   	     />
+   	
+   	<TextView
+   	    android:id="@+id/post_082711"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="After three weeks of production and planning, we have our final inventory made for Summer-Fall of 2011.  It's been such an exciting experience for KC and I.  We have always talked and joked about how awesome it would be to have our own line of jewelry and build an amazing blog like all the fashionistas out there for everyone to follow. Who knew we would actually make it a reality. With the support of each other and all our friends and family we have high hopes and confidence of running a successful business."
+		android:textColor="#000000"
+		android:textSize="12dp"
+		/>
+   	
+   	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:src="@drawable/blog6" />
+   	
+   	<TextView
+   	    android:id="@+id/post2_082711"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="We have so much more planned for us in the future, so please support!  Check us out on Facebook today!"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		/>
+   	
+   	<TextView
+    	android:id="@+id/post3_082711"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="http://www.facebook.com/eightynine.eleven"
+        android:autoLink="web"
+        android:textColor="#000000"
+		android:textSize="12dp"
+      	/>
+   	
+   	<TextView
+   	    android:id="@+id/post4_082711"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="\n\nThank you and love you all! \n\neighty-nine eleven \nJune Nichole and Kristina Carmina \n"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		/>
+   	
+   	<TextView
+   	    android:id="@+id/date_082311"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="TUESDAY, AUGUST 23, 2011"
+   	    android:textColor="#000000"
+   	    android:typeface="serif"
+   	    android:textStyle="bold" 
+   	     />
+   	
+   	<TextView
+   	    android:id="@+id/title_082311"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="Meeting #1"
+   	    android:textColor="#000000"
+   	    android:textSize="20dp"
+   	     />
+   	
+   	<TextView
+   	    android:id="@+id/post_082311"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="Tonight we had our first official meeting as co-creators of eighty-nine eleven. Meeting started out at Barnes and Noble, but due to its closing time we had to relocate. So now we are doing business at a kitchen table, making difficult decisions. First official meeting complete! :) \n"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		/>
+   	
+   	<TextView
+   	    android:id="@+id/date_082011"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="SATURDAY, AUGUST 20, 2011"
+   	    android:textColor="#000000"
+   	    android:typeface="serif"
+   	    android:textStyle="bold" 
+   	     />
+   	
+   	<TextView
+   	    android:id="@+id/title_082011"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="the production continues..."
+   	    android:textColor="#000000"
+   	    android:textSize="20dp" 
+   	     />
+   	
+   	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:src="@drawable/blog5" />
+   	
+   	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:src="@drawable/blog4" />
+   	
+   	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:src="@drawable/blog3" />
+   	
+   	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:src="@drawable/blog2" />
+   	
+   	<TextView
+   	    android:id="@+id/date_081011"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="WEDNESDAY, AUGUST 10, 2011"
+   	    android:textColor="#000000"
+   	    android:typeface="serif"
+   	    android:textStyle="bold" 
+   	     />
+   	
+   	<TextView
+   	    android:id="@+id/title_081011"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="in production..."
+   	    android:textColor="#000000"
+   	    android:textSize="20dp"
+   	     />
+   	
+   	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blog1" 
+        android:gravity="center_horizontal"/>
+         
+   	
+	</LinearLayout>
+</ScrollView>

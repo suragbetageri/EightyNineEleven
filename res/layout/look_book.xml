@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+
+	<LinearLayout 
+   		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:orientation="vertical"
+   		android:background="#D0D0FF" >
+    
+   		<TextView
+       		android:id="@+id/lookbook_title"
+        	android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+    	   	android:background="#FFFFFF"
+        	android:text="Fall-Winter 2011 Lookbook"
+	 	    android:gravity="center_horizontal"
+    	   	android:textColor="#000000"
+       		android:textSize="24dp"
+       		android:typeface="serif" />
+    
+   		<TextView
+   		    android:id="@+id/models"
+       		android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"
+       		android:gravity="center_horizontal"
+       		android:text="
+Featured models: Kristine Villacarillo, Lani Siakisini, Christine Ng, and Jenn Kim.\n
+Hair/Makeup: Ana Parga \n
+Photography: June Nichole Cruz \n"
+			android:textColor="#000000"
+			android:textSize="12dp" />
+    
+   		<Gallery  xmlns:android="http://schemas.android.com/apk/res/android" 
+    		android:id="@+id/gallery"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+		/>
+	</LinearLayout>	
+
+</ScrollView>
