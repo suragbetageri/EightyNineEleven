@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-   	android:layout_height="fill_parent">
+   	android:layout_height="fill_parent"
+   	android:background="#D0D0FF">
 
 	<LinearLayout 
    		android:layout_width="fill_parent"
    		android:layout_height="fill_parent"
-   		android:orientation="vertical"
-   		android:background="#D0D0FF" >
+   		android:orientation="vertical" >
     
    		<TextView
        		android:id="@+id/lookbook_title"
@@ -32,7 +32,7 @@ Photography: June Nichole Cruz \n"
 			android:textColor="#000000"
 			android:textSize="12dp" />
     
-   		<Gallery  xmlns:android="http://schemas.android.com/apk/res/android" 
+   		<Gallery 
     		android:id="@+id/gallery"
     		android:layout_width="fill_parent"
     		android:layout_height="wrap_content"

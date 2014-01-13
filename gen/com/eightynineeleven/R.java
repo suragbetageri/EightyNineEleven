@@ -17,41 +17,44 @@ public final class R {
         public static final int blog4=0x7f020003;
         public static final int blog5=0x7f020004;
         public static final int blog6=0x7f020005;
-        public static final int founders=0x7f020006;
-        public static final int ic_launcher=0x7f020007;
-        public static final int logo=0x7f020008;
-        public static final int lookbook1=0x7f020009;
-        public static final int lookbook10=0x7f02000a;
-        public static final int lookbook11=0x7f02000b;
-        public static final int lookbook12=0x7f02000c;
-        public static final int lookbook13=0x7f02000d;
-        public static final int lookbook14=0x7f02000e;
-        public static final int lookbook15=0x7f02000f;
-        public static final int lookbook16=0x7f020010;
-        public static final int lookbook17=0x7f020011;
-        public static final int lookbook18=0x7f020012;
-        public static final int lookbook19=0x7f020013;
-        public static final int lookbook2=0x7f020014;
-        public static final int lookbook20=0x7f020015;
-        public static final int lookbook21=0x7f020016;
-        public static final int lookbook22=0x7f020017;
-        public static final int lookbook23=0x7f020018;
-        public static final int lookbook24=0x7f020019;
-        public static final int lookbook25=0x7f02001a;
-        public static final int lookbook26=0x7f02001b;
-        public static final int lookbook27=0x7f02001c;
-        public static final int lookbook28=0x7f02001d;
-        public static final int lookbook29=0x7f02001e;
-        public static final int lookbook3=0x7f02001f;
-        public static final int lookbook30=0x7f020020;
-        public static final int lookbook31=0x7f020021;
-        public static final int lookbook32=0x7f020022;
-        public static final int lookbook4=0x7f020023;
-        public static final int lookbook5=0x7f020024;
-        public static final int lookbook6=0x7f020025;
-        public static final int lookbook7=0x7f020026;
-        public static final int lookbook8=0x7f020027;
-        public static final int lookbook9=0x7f020028;
+        public static final int blogger_logo=0x7f020006;
+        public static final int fb_logo=0x7f020007;
+        public static final int founders=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int logo=0x7f02000a;
+        public static final int logo_launcher=0x7f02000b;
+        public static final int lookbook1=0x7f02000c;
+        public static final int lookbook10=0x7f02000d;
+        public static final int lookbook11=0x7f02000e;
+        public static final int lookbook12=0x7f02000f;
+        public static final int lookbook13=0x7f020010;
+        public static final int lookbook14=0x7f020011;
+        public static final int lookbook15=0x7f020012;
+        public static final int lookbook16=0x7f020013;
+        public static final int lookbook17=0x7f020014;
+        public static final int lookbook18=0x7f020015;
+        public static final int lookbook19=0x7f020016;
+        public static final int lookbook2=0x7f020017;
+        public static final int lookbook20=0x7f020018;
+        public static final int lookbook21=0x7f020019;
+        public static final int lookbook22=0x7f02001a;
+        public static final int lookbook23=0x7f02001b;
+        public static final int lookbook24=0x7f02001c;
+        public static final int lookbook25=0x7f02001d;
+        public static final int lookbook26=0x7f02001e;
+        public static final int lookbook27=0x7f02001f;
+        public static final int lookbook28=0x7f020020;
+        public static final int lookbook29=0x7f020021;
+        public static final int lookbook3=0x7f020022;
+        public static final int lookbook30=0x7f020023;
+        public static final int lookbook31=0x7f020024;
+        public static final int lookbook32=0x7f020025;
+        public static final int lookbook4=0x7f020026;
+        public static final int lookbook5=0x7f020027;
+        public static final int lookbook6=0x7f020028;
+        public static final int lookbook7=0x7f020029;
+        public static final int lookbook8=0x7f02002a;
+        public static final int lookbook9=0x7f02002b;
     }
     public static final class id {
         public static final int about=0x7f050002;
@@ -64,12 +67,11 @@ public final class R {
         public static final int date_120811=0x7f050003;
         public static final int email=0x7f050018;
         public static final int email1=0x7f050019;
-        public static final int facebook=0x7f05001c;
-        public static final int facebook1=0x7f05001d;
+        public static final int facebook1=0x7f05001b;
         public static final int founders=0x7f050001;
-        public static final int gallery=0x7f050020;
-        public static final int lookbook_title=0x7f05001e;
-        public static final int models=0x7f05001f;
+        public static final int gallery=0x7f05001e;
+        public static final int lookbook_title=0x7f05001c;
+        public static final int models=0x7f05001d;
         public static final int post2_082711=0x7f05000d;
         public static final int post2_120411=0x7f050009;
         public static final int post3_082711=0x7f05000e;
@@ -78,7 +80,7 @@ public final class R {
         public static final int post_082711=0x7f05000c;
         public static final int post_120411=0x7f050008;
         public static final int post_120811=0x7f050005;
-        public static final int table_of_contents=0x7f050021;
+        public static final int table_of_contents=0x7f05001f;
         public static final int title=0x7f050000;
         public static final int title_081011=0x7f050016;
         public static final int title_082011=0x7f050014;
@@ -86,8 +88,7 @@ public final class R {
         public static final int title_082711=0x7f05000b;
         public static final int title_120411=0x7f050007;
         public static final int title_120811=0x7f050004;
-        public static final int website=0x7f05001a;
-        public static final int website1=0x7f05001b;
+        public static final int website1=0x7f05001a;
     }
     public static final class layout {
         public static final int about_us=0x7f030000;
@@ -111,7 +112,7 @@ public final class R {
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #HelloGallery_android_galleryItemBackground com.eightynineeleven:android_galleryItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #HelloGallery_android_galleryItemBackground android:galleryItemBackground}</code></td><td></td></tr>
            </table>
            @see #HelloGallery_android_galleryItemBackground
          */
@@ -119,9 +120,9 @@ public final class R {
             0x0101004c
         };
         /**
-          <p>This symbol is the offset where the {@link com.eightynineeleven.R.attr#android_galleryItemBackground}
+          <p>This symbol is the offset where the {@link android.R.attr#galleryItemBackground}
           attribute's value can be found in the {@link #HelloGallery} array.
-          @attr name android:android_galleryItemBackground
+          @attr name android:galleryItemBackground
         */
         public static final int HelloGallery_android_galleryItemBackground = 0;
     };

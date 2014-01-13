@@ -41,52 +41,21 @@
         
     </LinearLayout>
     
-    <LinearLayout 
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-         
-        <TextView
-            android:id="@+id/website"
-        	android:layout_width="75dp" 
-        	android:layout_height="25dp"
-        	android:text="Website: "
-        	android:textColor="#000000"
-        	/>
+    
         
-        <TextView
+       <ImageView
             android:id="@+id/website1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="http://eightynine-eleven.blogspot.com"
-            android:autoLink="web"
-            android:textColor="#000000"
-            />        
-        
-    </LinearLayout>
-    
-    <LinearLayout 
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-         
-        <TextView
-            android:id="@+id/facebook"
-        	android:layout_width="75dp" 
-        	android:layout_height="25dp"
-        	android:text="Facebook: "
-        	android:textColor="#000000"
-        	/>
-        
-        <TextView
+            android:src="@drawable/blogger_logo"
+            />      
+     
+        <ImageView
             android:id="@+id/facebook1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="http://www.facebook.com/eightynine.eleven"
-            android:autoLink="web"
-            android:textColor="#000000"
+            android:src="@drawable/fb_logo"
             />        
         
-    </LinearLayout>
     
 </LinearLayout>

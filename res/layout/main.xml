@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:background="#D0D0FF" >
+    android:background="#FFFFFF" >
 
     <ImageView
         android:layout_width="wrap_content"
@@ -13,48 +13,11 @@
     <ListView 
     	android:id="@+id/table_of_contents"
     	android:layout_width="fill_parent"
-    	android:layout_height="fill_parent">
+    	android:layout_height="fill_parent"
+    	android:background="#D0D0FF">
         
     </ListView>
     
-    <!--   <TextView
-        android:id="@+id/about_us"
-        android:layout_height="40dp"
-        android:layout_width="fill_parent"
-        android:background="#F0F0FF"
-        android:text="About Us"
-        android:textSize="28dp" 
-        android:textColor="#000000"
-        android:typeface="serif"/>
     
-    <TextView
-        android:id="@+id/look_book"
-        android:layout_height="40dp"
-        android:layout_width="fill_parent"
-        android:background="#F0F0FF"
-        android:text="Fall 2011 Look Book"
-        android:textSize="28dp"
-        android:textColor="#000000"
-        android:typeface="serif" />
-    
-    <TextView
-        android:id="@+id/blog"
-        android:layout_height="40dp"
-        android:layout_width="fill_parent"
-        android:background="#F0F0FF"
-        android:text="Our Blog"
-        android:textSize="28dp"
-        android:textColor="#000000"
-        android:typeface="serif" />
-    
-    <TextView
-        android:id="@+id/contact"
-        android:layout_height="40dp"
-        android:layout_width="fill_parent"
-        android:background="#F0F0FF"
-        android:text="Contact Us"
-        android:textSize="28dp"
-        android:textColor="#000000"
-        android:typeface="serif" /> -->
 
 </LinearLayout>

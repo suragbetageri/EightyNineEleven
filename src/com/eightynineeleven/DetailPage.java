@@ -106,17 +106,33 @@ public class DetailPage extends Activity {
 			TextView contact_title = (TextView) findViewById(R.id.contact_title);
 			TextView email = (TextView) findViewById(R.id.email);
 			TextView email1= (TextView) findViewById(R.id.email1);
-			TextView website = (TextView) findViewById(R.id.website);
-			TextView website1 = (TextView) findViewById(R.id.website1);
-			TextView facebook = (TextView) findViewById(R.id.facebook);
-			TextView facebook1 = (TextView) findViewById(R.id.facebook1);
+			ImageView website1 = (ImageView) findViewById(R.id.website1);
+			ImageView facebook1 = (ImageView) findViewById(R.id.facebook1);
 			contact_title.setTypeface(courier_new_bold);
 			email.setTypeface(courier_new_bold);
 			email1.setTypeface(courier_new);
-			website.setTypeface(courier_new_bold);
-			website1.setTypeface(courier_new);
-			facebook.setTypeface(courier_new_bold);
-			facebook1.setTypeface(courier_new);
+			
+			website1.setOnClickListener(new View.OnClickListener() {
+				public void onClick(View v) {
+					// TODO Auto-generated method stub
+					Intent intent = new Intent();
+					intent.setAction(Intent.ACTION_VIEW);
+					intent.addCategory(Intent.CATEGORY_BROWSABLE);
+					intent.setData(Uri.parse("http://eightynine-eleven.blogspot.com/"));
+					startActivity(intent);
+				}
+			});
+			
+			facebook1.setOnClickListener(new View.OnClickListener() {
+				public void onClick(View v) {
+					// TODO Auto-generated method stub
+					Intent intent = new Intent();
+					intent.setAction(Intent.ACTION_VIEW);
+					intent.addCategory(Intent.CATEGORY_BROWSABLE);
+					intent.setData(Uri.parse("https://www.facebook.com/eightynine.eleven"));
+					startActivity(intent);
+				}
+			});
 		}
 	
 	}	
